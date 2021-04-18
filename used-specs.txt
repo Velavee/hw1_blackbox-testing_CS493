@@ -1,0 +1,18 @@
+
+# Valid visa
+Test Case 66 		(Key = 6.3.1.)
+   Length   :  16
+   Prefix   :  4
+   Checksum :  True
+
+# Invalid visa with wrong checksum
+Test Case 67 		(Key = 6.3.2.)
+   Length   :  16
+   Prefix   :  4
+   Checksum :  False
+
+# Invalid visa with wrong prefix
+Test Case 64 		(Key = 6.2.1.)
+   Length   :  16
+   Prefix   :  3
+   Checksum :  True

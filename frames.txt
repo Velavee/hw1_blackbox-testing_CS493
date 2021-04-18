@@ -1,0 +1,424 @@
+
+Test Case 1  		<error>
+   Length :  0
+
+
+Test Case 2  		<single>
+   Length :  17
+
+
+Test Case 3  		<single>
+   Prefix :  33
+
+
+Test Case 4  		<single>  (follows [if])
+   Prefix :  34
+
+
+Test Case 5  		<single>  (follows [if])
+   Prefix :  37
+
+
+Test Case 6  		<single>
+   Prefix :  38
+
+
+Test Case 7  		<single>
+   Prefix :  50
+
+
+Test Case 8  		<single>  (follows [if])
+   Prefix :  51
+
+
+Test Case 9  		<single>
+   Prefix :  52-53
+
+
+Test Case 10 		<single>  (follows [if])
+   Prefix :  55
+
+
+Test Case 11 		<single>
+   Prefix :  56
+
+
+Test Case 12 		<single>
+   Prefix :  2220
+
+
+Test Case 13 		<single>
+   Prefix :  2721
+
+
+Test Case 14 		(Key = 2.1.1.)
+   Length   :  12
+   Prefix   :  None
+   Checksum :  True
+
+
+Test Case 15 		(Key = 2.1.2.)
+   Length   :  12
+   Prefix   :  None
+   Checksum :  False
+
+
+Test Case 16 		(Key = 2.2.1.)
+   Length   :  12
+   Prefix   :  3
+   Checksum :  True
+
+
+Test Case 17 		(Key = 2.2.2.)
+   Length   :  12
+   Prefix   :  3
+   Checksum :  False
+
+
+Test Case 18 		(Key = 2.3.1.)
+   Length   :  12
+   Prefix   :  4
+   Checksum :  True
+
+
+Test Case 19 		(Key = 2.3.2.)
+   Length   :  12
+   Prefix   :  4
+   Checksum :  False
+
+
+Test Case 20 		(Key = 2.4.1.)
+   Length   :  12
+   Prefix   :  5
+   Checksum :  True
+
+
+Test Case 21 		(Key = 2.4.2.)
+   Length   :  12
+   Prefix   :  5
+   Checksum :  False
+
+
+Test Case 22 		(Key = 2.15.1.)
+   Length   :  12
+   Prefix   :  2221
+   Checksum :  True
+
+
+Test Case 23 		(Key = 2.15.2.)
+   Length   :  12
+   Prefix   :  2221
+   Checksum :  False
+
+
+Test Case 24 		(Key = 2.16.1.)
+   Length   :  12
+   Prefix   :  2222-2719
+   Checksum :  True
+
+
+Test Case 25 		(Key = 2.16.2.)
+   Length   :  12
+   Prefix   :  2222-2719
+   Checksum :  False
+
+
+Test Case 26 		(Key = 2.17.1.)
+   Length   :  12
+   Prefix   :  2720
+   Checksum :  True
+
+
+Test Case 27 		(Key = 2.17.2.)
+   Length   :  12
+   Prefix   :  2720
+   Checksum :  False
+
+
+Test Case 28 		(Key = 3.2.1.)
+   Length   :  13
+   Prefix   :  3
+   Checksum :  True
+
+
+Test Case 29 		(Key = 3.2.2.)
+   Length   :  13
+   Prefix   :  3
+   Checksum :  False
+
+
+Test Case 30 		(Key = 3.3.1.)
+   Length   :  13
+   Prefix   :  4
+   Checksum :  True
+
+
+Test Case 31 		(Key = 3.3.2.)
+   Length   :  13
+   Prefix   :  4
+   Checksum :  False
+
+
+Test Case 32 		(Key = 3.4.1.)
+   Length   :  13
+   Prefix   :  5
+   Checksum :  True
+
+
+Test Case 33 		(Key = 3.4.2.)
+   Length   :  13
+   Prefix   :  5
+   Checksum :  False
+
+
+Test Case 34 		(Key = 3.15.1.)
+   Length   :  13
+   Prefix   :  2221
+   Checksum :  True
+
+
+Test Case 35 		(Key = 3.15.2.)
+   Length   :  13
+   Prefix   :  2221
+   Checksum :  False
+
+
+Test Case 36 		(Key = 3.16.1.)
+   Length   :  13
+   Prefix   :  2222-2719
+   Checksum :  True
+
+
+Test Case 37 		(Key = 3.16.2.)
+   Length   :  13
+   Prefix   :  2222-2719
+   Checksum :  False
+
+
+Test Case 38 		(Key = 3.17.1.)
+   Length   :  13
+   Prefix   :  2720
+   Checksum :  True
+
+
+Test Case 39 		(Key = 3.17.2.)
+   Length   :  13
+   Prefix   :  2720
+   Checksum :  False
+
+
+Test Case 40 		(Key = 4.2.1.)
+   Length   :  14
+   Prefix   :  3
+   Checksum :  True
+
+
+Test Case 41 		(Key = 4.2.2.)
+   Length   :  14
+   Prefix   :  3
+   Checksum :  False
+
+
+Test Case 42 		(Key = 4.3.1.)
+   Length   :  14
+   Prefix   :  4
+   Checksum :  True
+
+
+Test Case 43 		(Key = 4.3.2.)
+   Length   :  14
+   Prefix   :  4
+   Checksum :  False
+
+
+Test Case 44 		(Key = 4.4.1.)
+   Length   :  14
+   Prefix   :  5
+   Checksum :  True
+
+
+Test Case 45 		(Key = 4.4.2.)
+   Length   :  14
+   Prefix   :  5
+   Checksum :  False
+
+
+Test Case 46 		(Key = 4.15.1.)
+   Length   :  14
+   Prefix   :  2221
+   Checksum :  True
+
+
+Test Case 47 		(Key = 4.15.2.)
+   Length   :  14
+   Prefix   :  2221
+   Checksum :  False
+
+
+Test Case 48 		(Key = 4.16.1.)
+   Length   :  14
+   Prefix   :  2222-2719
+   Checksum :  True
+
+
+Test Case 49 		(Key = 4.16.2.)
+   Length   :  14
+   Prefix   :  2222-2719
+   Checksum :  False
+
+
+Test Case 50 		(Key = 4.17.1.)
+   Length   :  14
+   Prefix   :  2720
+   Checksum :  True
+
+
+Test Case 51 		(Key = 4.17.2.)
+   Length   :  14
+   Prefix   :  2720
+   Checksum :  False
+
+
+Test Case 52 		(Key = 5.2.1.)
+   Length   :  15
+   Prefix   :  3
+   Checksum :  True
+
+
+Test Case 53 		(Key = 5.2.2.)
+   Length   :  15
+   Prefix   :  3
+   Checksum :  False
+
+
+Test Case 54 		(Key = 5.3.1.)
+   Length   :  15
+   Prefix   :  4
+   Checksum :  True
+
+
+Test Case 55 		(Key = 5.3.2.)
+   Length   :  15
+   Prefix   :  4
+   Checksum :  False
+
+
+Test Case 56 		(Key = 5.4.1.)
+   Length   :  15
+   Prefix   :  5
+   Checksum :  True
+
+
+Test Case 57 		(Key = 5.4.2.)
+   Length   :  15
+   Prefix   :  5
+   Checksum :  False
+
+
+Test Case 58 		(Key = 5.15.1.)
+   Length   :  15
+   Prefix   :  2221
+   Checksum :  True
+
+
+Test Case 59 		(Key = 5.15.2.)
+   Length   :  15
+   Prefix   :  2221
+   Checksum :  False
+
+
+Test Case 60 		(Key = 5.16.1.)
+   Length   :  15
+   Prefix   :  2222-2719
+   Checksum :  True
+
+
+Test Case 61 		(Key = 5.16.2.)
+   Length   :  15
+   Prefix   :  2222-2719
+   Checksum :  False
+
+
+Test Case 62 		(Key = 5.17.1.)
+   Length   :  15
+   Prefix   :  2720
+   Checksum :  True
+
+
+Test Case 63 		(Key = 5.17.2.)
+   Length   :  15
+   Prefix   :  2720
+   Checksum :  False
+
+
+Test Case 64 		(Key = 6.2.1.)
+   Length   :  16
+   Prefix   :  3
+   Checksum :  True
+
+
+Test Case 65 		(Key = 6.2.2.)
+   Length   :  16
+   Prefix   :  3
+   Checksum :  False
+
+
+Test Case 66 		(Key = 6.3.1.)
+   Length   :  16
+   Prefix   :  4
+   Checksum :  True
+
+
+Test Case 67 		(Key = 6.3.2.)
+   Length   :  16
+   Prefix   :  4
+   Checksum :  False
+
+
+Test Case 68 		(Key = 6.4.1.)
+   Length   :  16
+   Prefix   :  5
+   Checksum :  True
+
+
+Test Case 69 		(Key = 6.4.2.)
+   Length   :  16
+   Prefix   :  5
+   Checksum :  False
+
+
+Test Case 70 		(Key = 6.15.1.)
+   Length   :  16
+   Prefix   :  2221
+   Checksum :  True
+
+
+Test Case 71 		(Key = 6.15.2.)
+   Length   :  16
+   Prefix   :  2221
+   Checksum :  False
+
+
+Test Case 72 		(Key = 6.16.1.)
+   Length   :  16
+   Prefix   :  2222-2719
+   Checksum :  True
+
+
+Test Case 73 		(Key = 6.16.2.)
+   Length   :  16
+   Prefix   :  2222-2719
+   Checksum :  False
+
+
+Test Case 74 		(Key = 6.17.1.)
+   Length   :  16
+   Prefix   :  2720
+   Checksum :  True
+
+
+Test Case 75 		(Key = 6.17.2.)
+   Length   :  16
+   Prefix   :  2720
+   Checksum :  False
+

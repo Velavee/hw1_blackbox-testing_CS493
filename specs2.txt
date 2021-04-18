@@ -1,0 +1,10 @@
+# Length - must be 15 or 16
+  Length:
+    0. [error]
+    12. [property tooShort1]
+    13. [property tooShort2]
+    14. [property tooShort3]
+    15. [property tooShort4]
+    16. [property americanExpress]
+    17. [single]
+    

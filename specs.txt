@@ -1,0 +1,34 @@
+# Length
+  Length:
+    0. [error]
+    12. [property tooShort1]
+    13. [property tooShort2]
+    14. [property tooShort3]
+    15. [property tooShort4]
+    16. [property americanExpress]
+    17. [single]
+# Prefix
+  Prefix:
+    None. [if tooShort1]
+    3.
+    4.
+    5.
+    33. [single]
+    34. [if !tooShort4] [single]
+    37. [if !tooShort4] [single]
+    38. [single]
+    50. [single]
+    51. [if !americanExpress] [single]
+    52-53. [single]
+    55. [if !americanExpress] [single]
+    56. [single]
+    2220. [single]
+    2221.
+    2222-2719.
+    2720.
+    2721. [single]
+
+# Checksum
+  Checksum:
+    True.
+    False.
